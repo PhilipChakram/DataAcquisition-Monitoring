@@ -11,9 +11,9 @@ from parse_rest.core import ResourceRequestBadRequest, ParseError
 from parse_rest.datatypes import Object as ParseObject
 
 
-APPLICATION_ID = 'd98609f10cbb6361f5427922c98cd8a7689b7778'
+APPLICATION_ID = ''
 REST_API_KEY = 'RaspberryPi'
-MASTER_KEY = '097b6ce40eeae2b40306a686d39bb51e1ce65287'
+MASTER_KEY = ''
 
 register(APPLICATION_ID, REST_API_KEY, master_key=MASTER_KEY)
 
